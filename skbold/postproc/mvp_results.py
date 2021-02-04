@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.externals import joblib
 from scipy import stats
 from itertools import combinations
-from scipy.misc import comb
+from scipy.special import comb
 from copy import copy
 from sklearn.metrics import confusion_matrix
 
