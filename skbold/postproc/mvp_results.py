@@ -1,11 +1,11 @@
 from __future__ import division, print_function, absolute_import
 
 from builtins import range
+import joblib
 import os.path as op
 import numpy as np
 import nibabel as nib
 import pandas as pd
-from sklearn.externals import joblib
 from scipy import stats
 from itertools import combinations
 from scipy.special import comb

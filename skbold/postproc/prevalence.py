@@ -1,10 +1,10 @@
 from __future__ import division, print_function, absolute_import
 
 from builtins import range
+import joblib
 import os.path as op
 import numpy as np
 import nibabel as nib
-from sklearn.externals import joblib
 from scipy import stats
 from tqdm import trange
 from warnings import filterwarnings

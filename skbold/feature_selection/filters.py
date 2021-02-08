@@ -6,7 +6,7 @@
 # License: 3 clause BSD
 
 from __future__ import division, print_function, absolute_import
-from sklearn.feature_selection.univariate_selection import (_BaseFilter,
+from sklearn.feature_selection._univariate_selection import (_BaseFilter,
                                                             check_is_fitted,
                                                             SelectPercentile,
                                                             SelectFwe,

@@ -12,7 +12,7 @@ from io import open
 from glob import glob
 from fnmatch import fnmatch
 from .mvp import Mvp
-from sklearn.preprocessing import Imputer
+from sklearn.impute import SimpleImputer as Imputer
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from ..preproc import MajorityUndersampler, LabelBinarizer
 
